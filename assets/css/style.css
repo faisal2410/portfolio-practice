@@ -132,3 +132,50 @@ a{
     left:-15.3rem;
     transform:translate(50%,50%);
   }
+  .services-section{
+      background-color: rgba(51, 51, 51, 0.308);
+  }
+.service-section{
+    color: teal;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:3.2rem;
+    font-weight:700;
+    margin-bottom:5rem;
+}
+  .services{
+      display:flex;
+      width: 100%;
+      justify-content: space-around;
+      padding:1.5rem 3rem;
+  }
+  .single-service{
+      padding:1.5rem 3rem;
+      box-shadow: 10px 10px 20px #ddd; 
+      width:30%;     
+  }
+  .single-service h3{
+      text-align:center;
+      text-transform:uppercase;
+      font-size:2.2rem;
+      color:white;
+      margin-bottom:1rem;
+  }
+  .div-img{
+      padding:1.5rem 3rem;  
+      text-align: center;   
+  }
+  .div-img img{
+    width:70%;
+  }
+  #img-adj{
+      height:115px;
+  }
+  .service-description{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding:1rem 0.5rem;
+      font-size:1.6rem;
+      line-height:2.5rem;
+      color: #fff;  
+  }
