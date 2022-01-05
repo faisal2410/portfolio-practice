@@ -1,0 +1,49 @@
+/* Reset code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size:62.5%
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+.header{
+    display:flex;
+    width:100%;
+   justify-content: space-around;
+}
+.logo a{
+    display:block;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding:10px 20px;
+
+}
+.logo-part-2{
+    color:green;
+}
+.menu{
+
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display:block;
+    padding:10px 20px;
+    text-transform: uppercase;
+    color: #fff;
+}

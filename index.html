@@ -1,23 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>portfolio project</title>
+    <!-- Video background css -->
     <style>
         .videoBack {
-          object-fit: cover;
-          width: 100vw;
-          height: 100vh;
-          position: fixed;
-          top: 0;
-          left: 0;
+            object-fit: cover;
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
         }
-      </style>
+    </style>
 </head>
+
 <body>
-    <video class="videoBack" src="./assets/video/back.mp4" autoplay loop playsinline muted></video>
+    <div class="main">
+        <!-- Video background -->
+        <div>
+            <video class="videoBack" src="./assets/video/back.mp4" autoplay loop playsinline muted></video>
+        </div>
+        <!-- Nav Bar -->        
+            <div class="header">
+                <div class="logo">
+                    <a href="">
+                        <p><span>abdur rahman</span> <span class="logo-part-2">talha</span></p>
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a>home</a></li>
+                        <li><a>portfolio</a></li>
+                        <li><a>about me</a></li>
+                        <li><a>blog</a></li>
+                        <li><a>contact</a></li>
+                        <li><a>download resume</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        
+
+    </div>
 </body>
+
 </html>
