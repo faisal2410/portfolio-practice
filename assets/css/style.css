@@ -163,7 +163,8 @@ a{
   }
   .div-img{
       padding:1.5rem 3rem;  
-      text-align: center;   
+      text-align: center; 
+     
   }
   .div-img img{
     width:70%;
@@ -197,7 +198,8 @@ a{
   }
   .project-image{
     padding:1.5rem 3rem;  
-    text-align: center;   
+    text-align: center; 
+   
   }
   .project-image img{
     width:70%;
@@ -233,6 +235,7 @@ a{
     padding:1.5rem 3rem;  
     text-align: center; 
     width:100%;  
+    
   }
   .hf-project-image img{
     width:70%;    
@@ -242,4 +245,10 @@ a{
       margin-top:3rem;
       margin-bottom: 3rem;
   }
-  
+  .footer-content {
+    margin-top: 50px;
+  }
+  .footer-text {
+    text-align: center;
+    color: #fff;
+  }
