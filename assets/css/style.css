@@ -179,3 +179,66 @@ a{
       line-height:2.5rem;
       color: #fff;  
   }
+  .recent-projects-title{
+    color: teal;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:3.2rem;
+    font-weight:700;
+    margin-bottom:5rem;
+    margin-top:5rem;
+  }
+  /* .recent-projects{
+      display: flex;   
+  } */
+  .lead-project{
+      display: flex;
+      justify-content:space-between;
+  }
+  .project-image{
+    padding:1.5rem 3rem;  
+    text-align: center;   
+  }
+  .project-image img{
+    width:70%;
+  }
+  .lead-educare h3{
+      color:#fff;
+      font-size:2.2rem;
+      font-weight:700;
+      padding:1.5rem 3rem;
+  }
+  .project-description{
+      color: #fff;
+      padding:1.5rem 3rem;
+  }
+  .project-description p{
+      margin-bottom:1.5rem;
+  }
+  .project-description ul{
+      list-style:square;
+  }
+  .live-preview{
+      margin-right:3rem;
+      margin-top: 2rem;
+  }
+  .source-code{
+    margin-top: 2rem;
+  }
+  .hf-project{
+    display: flex;
+    justify-content:space-between;
+  }
+  .hf-project-image{
+    padding:1.5rem 3rem;  
+    text-align: center; 
+    width:100%;  
+  }
+  .hf-project-image img{
+    width:70%;    
+  }
+  .more-projects{
+      text-align:center;
+      margin-top:3rem;
+      margin-bottom: 3rem;
+  }
